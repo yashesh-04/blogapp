@@ -1,6 +1,6 @@
-from django.contrib.auth.models import User
 import os
 import django
+from django.contrib.auth.models import User
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blogapi.settings')
 django.setup()
